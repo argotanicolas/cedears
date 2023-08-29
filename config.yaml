@@ -1,0 +1,19 @@
+credentials:
+  usernames:
+    nargota:
+      email: argotanicolas@gmail.com
+      name: Nicolas Argota
+      password: $2b$12$VRe4DGKNxMJICfDNatIvaeap42dui0Z64SzwU2ekZsHN6pPvpwuRy
+    sucomolli:
+      email: sucomolli@gmail.com
+      name: Tere Comolli 
+      password: $2b$12$VRe4DGKNxMJICfDNatIvaeap42dui0Z64SzwU2ekZsHN6pPvpwuRy
+cookie:
+  expiry_days: 30
+  key: random_signature_key # Must be string
+  name: random_cookie_name
+preauthorized:
+  emails:
+  - melsby@gmail.com
+
+
