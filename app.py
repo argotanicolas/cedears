@@ -60,7 +60,7 @@ if authentication_status:
         cocientes = [primer_valor / valor for valor in otros_valores]
         return np.round(cocientes, 2)
    
-    @st.cache_data(ttl=1*60)
+    @st.cache(ttl=1*60)
     def get_data():
         url = "https://iol.invertironline.com/mercado/cotizaciones/argentina/cedears/todos"
         # Realiza la solicitud GET a la página
